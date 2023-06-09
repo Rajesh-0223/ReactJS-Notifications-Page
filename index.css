@@ -1,0 +1,70 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto";
+}
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+.notification-list-container {
+  width: 60%;
+  max-width: 400px;
+}
+.notification-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.information-bg {
+  background-color: #0b69ff;
+}
+.success-bg {
+  background-color: #2dca73;
+}
+.warning-bg {
+  background-color: #ffb800;
+}
+.error-bg {
+  background-color: #ff0b37;
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.message {
+  color: #ffffff;
+  font-size: 12px;
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 56px;
+  }
+  .notification-container {
+    padding-top: 20px;
+    padding-right: 35px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  .notification-list-container {
+    width: 80%;
+    max-width: 500px;
+  }
+  .message {
+    font-size: 20px;
+  }
+}
